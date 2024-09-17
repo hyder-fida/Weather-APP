@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="getData()">
+    <div class="box">
+        <!-- <h1>Weather App</h1> -->
+        <input type="text" value="Budgam" placeholder="Enter city name" id="search"/>
+        <p style="font-size: 30px;">Celcius</p>
+        <p class="para">Temperature :- <span id="temp">20<sup>o</sup></span></p>
+        <p class="para">Wind speed :- <span id="ws">30</span></p>
+        <p class="para">Humidity :- <span id="hmdty">30</span></p>
+
+        <img height="150px" width="150px" style="margin-top: 5      px;" src="weather.png" alt=""/>
+    </div>
+    
+    <script src="index.js"></script>
+</body>
+</html>

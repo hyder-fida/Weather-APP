@@ -1,0 +1,44 @@
+*{
+   padding: 0;
+   margin: 0;
+   font-family: cursive;
+   width: 100%;
+   box-sizing: border-box;
+
+}
+
+body {
+    background-image: url('nature.jpg');
+    background-repeat: no-repeat;
+   background-size: cover;
+   height: 100vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   box-sizing: border-box;
+
+
+}
+
+.box {
+   height: 350px;
+   width: 300px;
+   background-color: rgba(1, 1, 1, 0.5);
+   box-shadow: 5px 5px 10px blue;
+   text-align: center;
+   color: white;
+   
+}
+
+input {
+   border-radius: 5px;
+   padding: 10px;
+   text-align: center;
+   font-size: 20px;
+   background-color: rgb(35, 238, 238);
+    margin-top: 2px;
+}
+
+.para {
+   font-size: 25px;
+}
